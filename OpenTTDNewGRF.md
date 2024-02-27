@@ -131,7 +131,7 @@ RattRoad由？？？开发。
 
 #### 2.1 JFRattRoad
 
-JFRattRoad是RattRoa的一个分支。其最大特色是有中文翻译。
+JFRattRoad是RattRoad的一个分支。其最大特色是有中文翻译。
 
 JFRattRoad由John Franklin翻译制作。
 
@@ -226,7 +226,13 @@ m4是一种语言。常用于编写车站。
 
 ### NML
 
-NML，即NewGRF Meta Language，是一种基于python和NFO的语言，用来编写grf文件。
+NML, the NewGRF Meta language, is a language based on python and NFO. It is a C-alike style language for NewGRF developing. NML provides various features developers could take advantage of. They are;
+
+- Modularable. Unlike NFO, NML allows using separate language files and custom tags files.Moreover, it supports pre-defined sprites and templates. Developers could simplily reuse them rather than defining the sprites again.
+- Multi-language support. Adding translations for languages such as Chinese and Japanese that uses Unicode characters using NFO is reletively hard (for instance JapanSet doesn't even have Japanese Translations) and NML simplified the whole process.
+- Formatting. NML is a C-style language. Comparing with NFO, it has a much better readibility.
+
+Most "Modern" NewGRFs are based on NML. NML is the most popular language within NewGRF devs currently.
 
 ### GRF是如何被开发出来的？
 
