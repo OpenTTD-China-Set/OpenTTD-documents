@@ -20,7 +20,14 @@ OpenTTD 提供了许多扩展包。这其中有：
 
 ## 如何寻找扩展包？
 
-请记住这个网址 - https://bananas.openttd.org
+请记住这个网址 - https://bananas.openttd.org。\
+如前文所说，BaNaNaS托管了大部分的NewGRF，自然其也提供了便利的查找功能。
+
+### 其他方法
+
+tt-forums是早期NewGRF的集散地，也是OpenTTD开发论坛（之一）。你可以在Graphics-developments板块下找到NewGRF。
+
+另外还有韩国玩家社区等，由于知名度过低，不表。
 
 ## 扩展包推荐与介绍
 
@@ -208,7 +215,7 @@ NewGRF这个名字听起来或许有点儿拗口。其实它是由两部分—�
 - yagl（YAGL语言使用的编译器）
 - grf-py
 - TrueGRF
-- grf2html（已过时）
+- grf2html（已过时，用于生成文档）
 - GRFMaker（已过时）
 
 NML与grf-py是基于NFO的。
@@ -226,13 +233,13 @@ m4是一种语言。常用于编写车站。
 
 ### NML
 
-NML, the NewGRF Meta language, is a language based on python and NFO. It is a C-alike style language for NewGRF developing. NML provides various features developers could take advantage of. They are;
+NML，即NewGRF Meta Language，是一种基于NFO与python的C风格NewGRF开发语言。NML提供了许多为开发者提供便利的特性：
 
-- Modularable. Unlike NFO, NML allows using separate language files and custom tags files.Moreover, it supports pre-defined sprites and templates. Developers could simplily reuse them rather than defining the sprites again.
-- Multi-language support. Adding translations for languages such as Chinese and Japanese that uses Unicode characters using NFO is reletively hard (for instance JapanSet doesn't even have Japanese Translations) and NML simplified the whole process.
-- Formatting. NML is a C-style language. Comparing with NFO, it has a much better readibility.
+- 可模块化。与 NFO 不同，NML 允许使用单独的语言文件和自定义标签文件。此外，它还支持预定义的精灵和模板。此外，它还支持预定义的精灵和模板，开发人员可以轻松地重复使用它们，而无需重新定义精灵。
+- 多语言支持。使用 NFO 为中文和日文等使用 Unicode 字符的语言添加翻译非常困难（例如，JapanSet 甚至没有日文翻译），而 NML 简化了整个过程。
+- 格式化。NML 是一种 C 风格语言。与 NFO 相比，它具有更好的可读性。
 
-Most "Modern" NewGRFs are based on NML. NML is the most popular language within NewGRF devs currently.
+大多数“现代“NewGRF都是基于NML的。NML是目前NewGRF开发人员最常用的语言。
 
 ### GRF是如何被开发出来的？
 
@@ -256,3 +263,4 @@ GRF的开发通常由目的出发。以中国包（新国铁包）的开发为�
 - 选取许可证
 - 上传至官方内容分发服务器
 
+于是你就可以在你最爱的水果商店里面找到新鲜出炉的GRF了 :-)
