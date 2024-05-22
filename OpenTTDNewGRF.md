@@ -20,14 +20,14 @@ OpenTTD 提供了许多扩展包。这其中有：
 
 ## 如何寻找扩展包？
 
-请记住这个网址 - https://bananas.openttd.org。\
+请记住这个网址 - https://bananas.openttd.org \
 如前文所说，BaNaNaS托管了大部分的NewGRF，自然其也提供了便利的查找功能。
 
 ### 其他方法
 
 tt-forums是早期NewGRF的集散地，也是OpenTTD开发论坛（之一）。你可以在Graphics-developments板块下找到NewGRF。
 
-另外还有韩国玩家社区等，由于知名度过低，不表。
+另外还有韩国玩家社区等，由于阻挡中国大陆IP且知名度较低，不表。
 
 ## 扩展包推荐与介绍
 
@@ -74,7 +74,7 @@ FIRS是Andythenorth开发的工业扩展套装。由于其有中文翻译，在�
 
 #### 1.2 AXIS（FIRS系）
 
-AXIS是基于FIRS的工业拓展套装，相较于FIRS其拥有更复杂的产业链，对于多人游戏和想要挑战自己的玩家是一个可以尝试的选择。
+AXIS是基于FIRS的工业拓展套装，相较于FIRS，其拥有更复杂的产业链，对于多人游戏和想要挑战自己的玩家是一个可以尝试的选择。
 
 AXIS由Emperor Jake开发。
 
@@ -182,7 +182,7 @@ Greenscreen由WenSim开发。
 
 #### 4. Andythenorth的GRF以及其衍生分支
 
-#### 5. ChinaSet（中国包）
+#### 5. China Set（中国包）
 
 #### 6. xUSSR系
 
@@ -239,7 +239,11 @@ NML，即NewGRF Meta Language，是一种基于NFO与python的C风格NewGRF开�
 - 多语言支持。使用 NFO 为中文和日文等使用 Unicode 字符的语言添加翻译非常困难（例如，JapanSet 甚至没有日文翻译），而 NML 简化了整个过程。
 - 格式化。NML 是一种 C 风格语言。与 NFO 相比，它具有更好的可读性。
 
-大多数“现代“NewGRF都是基于NML的。NML是目前NewGRF开发人员最常用的语言。
+大多数“现代“NewGRF都是基于NML的。NML是目前NewGRF开发者最常用的语言。
+
+### yagl
+
+YAGL，即Yet Another GRF Language，是UnicycleBloke编制的NewGRF开发语言与（反）编译器。其特点在于可以轻松反编译GRF并调整当中的某些内容，可以被用来汉化GRF；相较于NFO，其读取出来的内容也更易读。
 
 ### GRF是如何被开发出来的？
 
@@ -261,6 +265,8 @@ GRF的开发通常由目的出发。以中国包（新国铁包）的开发为�
 这个时候，GRF的开发就已经完成了，但是我们还想更好一点儿，于是——
 
 - 选取许可证
-- 上传至官方内容分发服务器
+- 上传至官方内容分发服务器（Bananas，香蕉）
 
 于是你就可以在你最爱的水果商店里面找到新鲜出炉的GRF了 :-)
+
+如果你想要编写NewGRF，可以参照官方教程（英语），或者阅读这里的教程（中文）
