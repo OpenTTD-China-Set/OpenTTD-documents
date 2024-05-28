@@ -21,13 +21,13 @@ OpenTTD 提供了许多扩展包。这其中有：
 ## 如何寻找扩展包？
 
 请记住这个网址 - https://bananas.openttd.org \
-如前文所说，BaNaNaS托管了大部分的NewGRF，自然其也提供了便利的查找功能。
+如前文所说，BaNaNaS 托管了大部分的 NewGRF，自然其也提供了便利的查找功能。
 
 ### 其他方法
 
-tt-forums是早期NewGRF的集散地，也是OpenTTD开发论坛（之一）。你可以在Graphics-developments板块下找到NewGRF。
+tt-forums 是早期 NewGRF 的集散地，也是 OpenTTD 开发论坛（之一）。你可以在 Graphics-developments 板块下找到 NewGRF。
 
-另外还有韩国玩家社区等，由于阻挡中国大陆IP且知名度较低，不表。
+另外还有韩国玩家社区等，由于阻挡中国大陆 IP 且知名度较低，不表。
 
 ## 扩展包推荐与介绍
 
@@ -41,7 +41,7 @@ tt-forums是早期NewGRF的集散地，也是OpenTTD开发论坛（之一）。�
     - 航空器
     - 船舶
 2. 工业类
-    - FIRS系
+    - FIRS 系
     - 其他
 3. 车站类
 4. 轨道与道路类
@@ -58,35 +58,35 @@ tt-forums是早期NewGRF的集散地，也是OpenTTD开发论坛（之一）。�
 
 - 主要扩展包家族介绍
 - 特别推荐列表
-- NewGRF技术
+- NewGRF 技术
 
 ### 载具类
 ----------
 
-载具类是OpenTTD NewGRF当中体量最大的类别。其中又以火车拓展包数量最多。
+载具类是 OpenTTD NewGRF 当中体量最大的类别。其中又以火车拓展包数量最多。
 
 ### 工业类
 ----------
 
-#### 1.1 FIRS（FIRS系）
+#### 1.1 FIRS（FIRS 系）
 
-FIRS是Andythenorth开发的工业扩展套装。由于其有中文翻译，在中文玩家社区内较为热门。
+FIRS 是 Andythenorth 开发的工业扩展套装。由于其有中文翻译，在中文玩家社区内较为热门。
 
-#### 1.2 AXIS（FIRS系）
+#### 1.2 AXIS（FIRS 系）
 
-AXIS是基于FIRS的工业拓展套装，相较于FIRS，其拥有更复杂的产业链，对于多人游戏和想要挑战自己的玩家是一个可以尝试的选择。
+AXIS 是基于 FIRS 的工业拓展套装，相较于 FIRS，其拥有更复杂的产业链，对于多人游戏和想要挑战自己的玩家是一个可以尝试的选择。
 
-AXIS由Emperor Jake开发。
+AXIS 由 Emperor Jake 开发。
 
-#### 1.3 PIRS（FIRS系）
+#### 1.3 PIRS（FIRS 系）
 
-#### 1.4 AIRS（FIRS系）
+#### 1.4 AIRS（FIRS 系）
 
-AIRS，即Ages of Industries，是另一个基于FIRS的工业拓展套装。其基于北美的产业体系设计。AIRS最大的特点是加入了基于年份和时间的产业链。玩家在当中必须时刻关注新工业与新技术的发展。同时，在使用AIRS的时候工业会经常开张与倒闭。
+AIRS，即 Ages of Industries，是另一个基于 FIRS 的工业拓展套装。其基于北美的产业体系设计。AIRS 最大的特点是加入了基于年份和时间的产业链。玩家在当中必须时刻关注新工业与新技术的发展。同时，在使用 AIRS 的时候工业会经常开张与倒闭。
 
-AIRS偏经营向，对于多人游戏和挑战玩家是一个不错的选择。但是，AIRS目前可能比较不稳定。
+AIRS 偏经营向，对于多人游戏和挑战玩家是一个不错的选择。但是，AIRS 目前可能比较不稳定。
 
-AIRS由不知道谁开发。<!--这里要改-->
+AIRS 由不知道谁开发。<!--这里要改-->
 
 #### 2. Real Industries
 
@@ -94,9 +94,9 @@ AIRS由不知道谁开发。<!--这里要改-->
 
 #### 3.1 OpenGFX+ Industries Manpower
 
-#### 4. ECS系
+#### 4. ECS 系
 
-#### 5. YETI系
+#### 5. YETI 系
 
 ### 车站类
 ----------
@@ -122,25 +122,25 @@ AIRS由不知道谁开发。<!--这里要改-->
 ### 轨道与道路类
 ----------
 
-> 关于道路类，这里仅讨论OpenTTD 1.10 中加入的NRT道路。对于图形替换的道路包，如American Road Replacement Set，由于其并不可以与NRT道路共存，故指南中不会涉及。
+> 关于道路类，这里仅讨论 OpenTTD 1.10 中加入的 NRT 道路。对于图形替换的道路包，如 American Road Replacement Set，由于其并不可以与 NRT 道路共存，故指南中不会涉及。
 
 #### 1. U&Ratt 1.0
 
-U&Ratt是OpenTTD中迄今为止最大最完备的道路拓展包。
+U&Ratt 是 OpenTTD 中迄今为止最大最完备的道路拓展包。
 
-U&Ratt由Ufiby开发。
+U&Ratt 由 Ufiby 开发。
 
 #### 2. RattRoad
 
-RattRoad是自OpenTTD 1.10以来加入道路种类起较早出现的道路拓展包。
+RattRoad 是自 OpenTTD 1.10 以来加入道路种类起较早出现的道路拓展包。
 
-RattRoad由？？？开发。
+RattRoad 由？？？开发。
 
 #### 2.1 JFRattRoad
 
-JFRattRoad是RattRoad的一个分支。其最大特色是有中文翻译。
+JFRattRoad 是 RattRoad 的一个分支。其最大特色是有中文翻译。
 
-JFRattRoad由John Franklin翻译制作。
+JFRattRoad 由 John Franklin 翻译制作。
 
 #### 3. CZTR Roads
 
@@ -157,49 +157,49 @@ JFRattRoad由John Franklin翻译制作。
 
 #### 1. DisablerGRF
 
-禁用东西的GRF，在不想要游戏中的某功能时尤其有用。由Gwyd开发。
+禁用东西的 GRF，在不想要游戏中的某功能时尤其有用。由 Gwyd 开发。
 
 #### 2. SmallMan
 
-（在14.0之后已无必要，由Gwyd开发）
+（在 14.0 之后已无必要，由 Gwyd 开发）
 
 #### 3. Greenscreen
 
-绿幕GRF，为内容创作者设计。
+绿幕 GRF，为内容创作者设计。
 
-Greenscreen由WenSim开发。
+Greenscreen 由 WenSim 开发。
 
 ### 主要扩展包家族介绍
 ----------
 
-#### 1. OpenGFX+系
+#### 1. OpenGFX+ 系
 
-#### 2. JapanSet系
+#### 2. JapanSet 系
 
-#### 2.1 JapanSet+系
+#### 2.1 JapanSet+ 系
 
-#### 3. KoreanGRF系
+#### 3. KoreanGRF 系
 
-#### 4. Andythenorth的GRF以及其衍生分支
+#### 4. Andythenorth 的 GRF 以及其衍生分支
 
 #### 5. China Set（中国包）
 
-#### 6. xUSSR系
+#### 6. xUSSR 系
 
-#### 7. Auz系
+#### 7. Auz 系
 
-#### 8. CZTR系
+#### 8. CZTR 系
 
 ### 特别推荐列表
 ----------
 
 
-### NewGRF技术
+### NewGRF 技术
 ----------
 
-NewGRF这个名字听起来或许有点儿拗口。其实它是由两部分——“New”和“GRF”——拼接在一起的。“New”代表“新”，而“GRF”代表“Graphics file”，即“图像文件”。在OpenTTD问世之前，TTDPatch（你可以将他看作是OpenTTD的父辈）加入了NewGRF功能，允许玩家自行编制游戏扩展。
+NewGRF 这个名字听起来或许有点儿拗口。其实它是由两部分——“New”和“GRF”——拼接在一起的。“New”代表“新”，而“GRF”代表“Graphics file”，即“图像文件”。在 OpenTTD 问世之前，TTDPatch（你可以将他看作是 OpenTTD 的父辈）加入了 NewGRF 功能，允许玩家自行编制游戏扩展。
 
-在NewGRF的发展过程中，玩家社区开发了一些程序与方法以编制NewGRF。目前，可以用于编制NewGRF的语言有四种：
+在 NewGRF 的发展过程中，玩家社区开发了一些程序与方法以编制 NewGRF。目前，可以用于编制 NewGRF 的语言有四种：
 
 - NFO
 - NML（NewGRF Meta Language）
@@ -207,47 +207,47 @@ NewGRF这个名字听起来或许有点儿拗口。其实它是由两部分—�
 - Python（使用 grf-py）
 - m4
 
-另外也有一些工具可以用于编写NewGRF：
+另外也有一些工具可以用于编写 NewGRF：
 
-- grfcodec（NFO使用的编译器）
+- grfcodec（NFO 使用的编译器）
     - nforenum（语法规范程序）
-- nmlc（NML使用的编译器）
-- yagl（YAGL语言使用的编译器）
+- nmlc（NML 使用的编译器）
+- yagl（YAGL 语言使用的编译器）
 - grf-py
 - TrueGRF
 - grf2html（已过时，用于生成文档）
 - GRFMaker（已过时）
 
-NML与grf-py是基于NFO的。
+NML 与 grf-py 是基于 NFO 的。
 
-NFO是最早用来编制GRF的语言。1995年的TTD当中的GRF文件便是采用NFO编制。它的特点如下：
+NFO 是最早用来编制 GRF 的语言。1995 年的 TTD 当中的 GRF 文件便是采用 NFO 编制。它的特点如下：
 
-- 完整性：NFO文件可以记录一个GRF中所有的信息；
-- 易读性：NFO文件将GRF文件转化为可读的文字与方位信息，在一定程度上提升了可读性，但是还是需要一定的经验才可以流畅阅读。
+- 完整性：NFO 文件可以记录一个 GRF 中所有的信息；
+- 易读性：NFO 文件将 GRF 文件转化为可读的文字与方位信息，在一定程度上提升了可读性，但是还是需要一定的经验才可以流畅阅读。
 
-在开发GRF的过程当中，玩家社区逐渐意识到NFO本身的局限性。NFO不支持扩展的列表，语法复杂难懂，源文件中的错误也难以被编译器检查出来。社区的开发者迫切需要一种可拓展、兼容性好的语言来替代NFO。在这种情形下，开发者拿出了两种方案：m4与NML。
+在开发 GRF 的过程当中，玩家社区逐渐意识到 NFO 本身的局限性。NFO 不支持扩展的列表，语法复杂难懂，源文件中的错误也难以被编译器检查出来。社区的开发者迫切需要一种可拓展、兼容性好的语言来替代 NFO。在这种情形下，开发者拿出了两种方案：m4 与 NML。
 
 ### m4
 
-m4是一种语言。常用于编写车站。
+m4 是一种语言。常用于编写车站。
 
 ### NML
 
-NML，即NewGRF Meta Language，是一种基于NFO与python的C风格NewGRF开发语言。NML提供了许多为开发者提供便利的特性：
+NML，即 NewGRF Meta Language，是一种基于 NFO 与 python 的 C 风格 NewGRF 开发语言。NML 提供了许多为开发者提供便利的特性：
 
 - 可模块化。与 NFO 不同，NML 允许使用单独的语言文件和自定义标签文件。此外，它还支持预定义的精灵和模板。此外，它还支持预定义的精灵和模板，开发人员可以轻松地重复使用它们，而无需重新定义精灵。
 - 多语言支持。使用 NFO 为中文和日文等使用 Unicode 字符的语言添加翻译非常困难（例如，JapanSet 甚至没有日文翻译），而 NML 简化了整个过程。
 - 格式化。NML 是一种 C 风格语言。与 NFO 相比，它具有更好的可读性。
 
-大多数“现代“NewGRF都是基于NML的。NML是目前NewGRF开发者最常用的语言。
+大多数“现代“NewGRF 都是基于 NML 的。NML 是目前 NewGRF 开发者最常用的语言。
 
 ### yagl
 
-YAGL，即Yet Another GRF Language，是UnicycleBloke编制的NewGRF开发语言与（反）编译器。其特点在于可以轻松反编译GRF并调整当中的某些内容，可以被用来汉化GRF；相较于NFO，其读取出来的内容也更易读。
+YAGL，即 Yet Another GRF Language，是 UnicycleBloke 编制的 NewGRF 开发语言与（反）编译器。其特点在于可以轻松反编译 GRF 并调整当中的某些内容，可以被用来汉化 GRF；相较于 NFO，其读取出来的内容也更易读。
 
-### GRF是如何被开发出来的？
+### GRF 是如何被开发出来的？
 
-GRF的开发通常由目的出发。以中国包（新国铁包）的开发为例，流程如下：
+GRF 的开发通常由目的出发。以中国包（新国铁包）的开发为例，流程如下：
 
 - 选取目标
     - 国铁机车
@@ -257,16 +257,16 @@ GRF的开发通常由目的出发。以中国包（新国铁包）的开发为�
     - vox & MagicaVoxel（图像）
     - NML & nmlc（代码）
     - python（自动化）
-- 满足**GRF的需求**
+- 满足**GRF 的需求**
     - 代码
     - 图像
 - 满足目标
 
-这个时候，GRF的开发就已经完成了，但是我们还想更好一点儿，于是——
+这个时候，GRF 的开发就已经完成了，但是我们还想更好一点儿，于是——
 
 - 选取许可证
 - 上传至官方内容分发服务器（Bananas，香蕉）
 
-于是你就可以在你最爱的水果商店里面找到新鲜出炉的GRF了 :-)
+于是你就可以在你最爱的水果商店里面找到新鲜出炉的 GRF 了 :-)
 
-如果你想要编写NewGRF，可以参照官方教程（英语），或者阅读这里的教程（中文）
+如果你想要编写 NewGRF，可以参照官方教程（英语），或者阅读这里的教程（中文）
