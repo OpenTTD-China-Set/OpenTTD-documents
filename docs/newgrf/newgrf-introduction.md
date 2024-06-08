@@ -216,18 +216,11 @@ NewGRF 这个名字听起来或许有点儿拗口。其实它是由两部分—�
 
 另外也有一些工具可以用于编写 NewGRF：
 
-- grfcodec（NFO 使用的编译器）
-  - nforenum（语法规范程序）
-- nmlc（NML 使用的编译器）
-- yagl（YAGL 语言使用的编译器）
-- grf-py
-- TrueGRF
+- TrueGRF（未维护）
 - grf2html（已过时，用于生成文档）
 - GRFMaker（已过时）
 
-NML 与 grf-py 是基于 NFO 的。
-
-NFO 是最早用来编制 GRF 的语言。1995 年的 TTD 当中的 GRF 文件便是采用 NFO 编制。它的特点如下：
+NFO 是最早用来编制 GRF 的语言。它的特点如下：
 
 - 完整性：NFO 文件可以记录一个 GRF 中所有的信息；
 - 易读性：NFO 文件将 GRF 文件转化为可读的文字与方位信息，在一定程度上提升了可读性，但是还是需要一定的经验才可以流畅阅读。
