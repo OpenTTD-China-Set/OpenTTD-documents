@@ -10,6 +10,8 @@
 - [图像](./sprites_introduction.md)
   - [软件](./sprites_software.md)
 
+- [Actions](./actions_introduction.md)
+
 ## 介绍
 
 编写 NewGRF 有固定的流程。
