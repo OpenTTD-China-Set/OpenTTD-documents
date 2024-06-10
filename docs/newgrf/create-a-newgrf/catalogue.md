@@ -7,6 +7,7 @@
 - [程序](./code_introduction.md)
   - [基本运算](./code_functions.md)
   - [引导块](./code_header.md)
+  - [文本](./code_strings.md)
 - [图像](./sprites_introduction.md)
   - [软件](./sprites_software.md)
 

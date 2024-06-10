@@ -24,7 +24,7 @@ pip3 install nml
 
 - scoop（仅 Windows，支持自动更新）
 
-```powershell
+```bash
 scoop bucket add openttd-bucket https://github.com/wensimehrp/openttd-bucket
 scoop install openttd-bucket/nml
 ```
@@ -39,7 +39,7 @@ scoop install openttd-bucket/nml
 
 安装完以后可以在终端内执行以下命令来查看 nml 版本
 
-```powershell
+```bash
 nmlc --version
 ```
 
@@ -68,7 +68,7 @@ GRF 中的所有内容实际上都是“图像”，只不过这些图像包括�
 
 如果不知道某个命令如何使用，可以在打完之后加`--help`参数；或者，如果使用 PowerShell，可以使用`man`命令来查询使用手册，如：
 
-```powershell
+```bash
 nmlc --help
 man nmlc
 ```
@@ -77,7 +77,7 @@ man nmlc
 
 假设你把你的工程文件放在`C:\OpenTTD\GRF\`目录下，主文件是`my_grf.nml`，你可以通过这些步骤编译 GRF：
 
-```powershell
+```bash
 cd C:\OpenTTD\GRF
 # 可选项，使用ls命令来查询当前目录的所有文件
 ls
