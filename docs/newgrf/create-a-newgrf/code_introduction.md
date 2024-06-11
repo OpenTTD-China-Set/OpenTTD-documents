@@ -92,3 +92,6 @@ nmlc my_grf.nml
 | `dir`  | 列出当前工作目录下的所有文件 | 即“Directory”               |
 | `man`  | 获取帮助                     | 即“Manual”                  |
 | `nmlc` | 编译 NML 语言                | 需要事前安装                |
+
+>[!TIPS]
+> 除了 PowerShell、CMD 之外，还可以使用 Bash。你可以通过安装 Git 以在 Windows 上使用 Bash。

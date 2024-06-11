@@ -31,6 +31,24 @@ grf {
 }
 ```
 
+## 附录 I：GRFID 注意事项
+
+| GRFID                      | 用途                                                  |
+|----------------------------|-------------------------------------------------------|
+| 00 00 00 00                | 保留（用于指示“不是 NewGRF”，如原版工业等）              |
+| 00 00 00 01 .. FE FF FF FF | 普通 NewGRF                                           |
+| FF 00 00 00 .. FF FF FF FF | 保留                                                  |
+| FF "OT" 00 .. FF "OT" FF   | 额外基本图形 GRF                                      |
+| FF "OT" 01                 | OpenGFX                                               |
+| FF "OT" 11                 | NoGFX                                                 |
+| FF "OTD"                   | OpenTTD 额外基本图形：openttdd.grf (OpenTTD 0.6 - 1.0) |
+| FF "OTN"                   | NightGFX                                              |
+| FF "OTT"                   | OpenTTD 额外基本图形：openttd.grf (OpenTTD >= 1.1)     |
+| FF "OTW"                   | OpenTTD 额外基本图形：openttdw.grf (OpenTTD 0.6 - 1.0) |
+| FF "OTz"                   | zBase                                                 |
+| FF FF FF FF                | TTDPatch 额外基本图形                                 |
+| FF .. .. ..                | 所有以“FF”开头的 GRFID 为系统保留 ID                  |
+
 对应 Actions:
 
 - [Action0x14](./action_0x14.md)

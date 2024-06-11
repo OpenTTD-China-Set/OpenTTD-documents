@@ -8,3 +8,4 @@ Item 块是 NewGRF 中一切新增内容之根源，从载具——火车、汽�
 
 ```bash
 item(FEAT_TRAINS)
+```
