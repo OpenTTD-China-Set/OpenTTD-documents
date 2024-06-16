@@ -16,6 +16,23 @@ grf                                           // Action08 关键字
 }
 ```
 
+GRF ID 必须使用英文双引号括起来，且只能包含 ASCII 字符或以`\x`开头的十六进制数。
+
+```cpp
+
+/* 正确 */ grf_id: "CNMB";
+/* 正确 */ grf_id: "baka";
+/* 正确 */ grf_id: "0000";
+/* 正确 */ grf_id: "ba\x11\x45";
+/* 正确 */ grf_id: "\x11\x45\x14\x19";
+/* 正确 */ grf_id: "....";
+/* 正确 */ grf_id: "ABCD";
+/* 错误 */ grf_id: "ABCDE";
+/* 错误 */ grf_id: "00\x00";
+/* 错误 */ grf_id: "琪露诺";
+
+```
+
 ## 附录 I: GRF 标准
 
 | 版本 | 兼容性     | TTDPatch 对应版本                                   | OpenTTD 兼容性          |

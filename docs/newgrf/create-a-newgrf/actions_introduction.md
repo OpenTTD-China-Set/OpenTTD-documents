@@ -40,3 +40,6 @@ NewGRF 可以包含 20 种 Action，从 Action0x00 到 Action0x14（十六进制
 [Action0x13 翻译](./action_0x13.md)
 
 [Action0x0C 注释](./action_0x0C.md)
+
+[Realsprites](./action_realsprites.md)\
+[Recoloursprites](./action_recoloursprites.md)
