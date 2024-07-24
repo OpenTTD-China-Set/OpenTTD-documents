@@ -49,6 +49,8 @@ grf {
 | FF FF FF FF                | TTDPatch 额外基本图形                                 |
 | FF .. .. ..                | 所有以“FF”开头的 GRFID 为系统保留 ID                  |
 
+一共有 $256^4=4294967296$ 个可用的 GRF ID。
+
 对应 Actions:
 
 - [Action0x14](./action_0x14.md)
