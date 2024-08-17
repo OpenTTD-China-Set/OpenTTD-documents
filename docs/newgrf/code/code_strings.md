@@ -1,13 +1,12 @@
 # 文本
 
-[返回目录](./catalogue.md)\
-[返回介绍](./code_introduction.md)
+```{note}
+这里主要是对 LNG 语言文件的介绍。OpenTTD 游戏本体（与改版）也使用相同的语言文件和格式。
+```
 
->[!NOTE]
-> 这里主要是对 LNG 语言文件的介绍。OpenTTD 游戏本体（与改版）也使用相同的语言文件和格式。
----
->[!CAUTION]
-> YAGL 使用不同的语言格式，一些关键字与 LNG 语言文件有所出入。如要了解，请查看下方的章节
+```{caution}
+YAGL 使用不同的语言格式，一些关键字与 LNG 语言文件有所出入。如要了解，请查看下方的章节
+```
 
 LNG 语言文件遵循一套简单明了的格式。其格式如下：
 
@@ -204,76 +203,81 @@ STR_GRF_URL     :https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 使用关键字的样例：
 
-```txt
+```
     name: "Ridiculous Town Names {ext push-colour}{blue}1.2.3{ext pop-colour}";
 ```
 
-## 附录 III：语言代码
+## 语言代码
 
-| ID | language             | cases                                 | genders                   | plural form |
-|----|----------------------|---------------------------------------|---------------------------|-------------|
-| 00 | English (US)         |                                       |                           |             |
-| 01 | English (GB)         |                                       |                           |             |
-| 02 | German               |                                       | m w n p                   |             |
-| 03 | French               |                                       | m m2 f                    | 2           |
-| 04 | Spanish              |                                       | m f                       |             |
-| 05 | Esperanto            |                                       |                           | n           |
-| 06 | Ido                  |                                       |                           |             |
-| 07 | Russian              | m f n p nom gen dat acc abl pre       | m f n p                   | 6           |
-| 08 | Irish                |                                       |                           | 4           |
-| 09 | Maltese              |                                       |                           | 12          |
-| 0A | Tamil                |                                       |                           |             |
-| 0B | Chuvash              |                                       |                           |             |
-| 0C | Chinese              | (Traditional)                         |                           | 1           |
-| 0D | Serbian              | nom big gen dat aku vok lok ins       | muški ženski srednji      | 6           |
-| 0E | Norwegian (Nynorsk)  | small                                 | masculine feminine neuter |             |
-| 0F | Welsh                |                                       |                           |             |
-| 10 | Belarusian           | m f n p nom gen dat acc abl pre       | m f n p                   | 6           |
-| 11 | Marathi              |                                       |                           |             |
-| 12 | Faroese              |                                       | m f n                     |             |
-| 13 | Scottish Gaelic      | dat gen nom voc                       | m f                       | 13          |
-| 14 | Arabic               | (Egypt)                               |                           | 1           |
-| 15 | Czech                | nom gen dat acc voc loc ins big small | m f n map mnp fp np       | 10          |
-| 16 | Slovak               | g                                     | m z s                     | 10          |
-| 17 | Hindi                |                                       |                           |             |
-| 18 | Bulgarian            | m f n p                               | m f n p                   |             |
-| 1B | Afrikaans            |                                       | male                      |             |
-| 1E | Greek                | subs date geniki                      | m f n                     | 2           |
-| 1F | Dutch                |                                       |                           |             |
-| 21 | Basque               |                                       |                           |             |
-| 22 | Catalan              |                                       | Masculin Femenin          |             |
-| 23 | Luxembourgish        |                                       |                           |             |
-| 24 | Hungarian            | t ba                                  |                           | 2           |
-| 26 | Macedonian           |                                       |                           |             |
-| 27 | Italian              | ms mp fs fp                           | m ma f                    |             |
-| 28 | Romanian             |                                       |                           |             |
-| 29 | Icelandic            |                                       | karlkyn kvenkyn hvorugkyn |             |
-| 2A | Latvian              | kas                                   | m f                       | 3           |
-| 2B | Lithuanian           | kas ko kam ka kuo kur kreip           | vyr mot                   | 5           |
-| 2C | Slovenian            | r d t                                 |                           | 8           |
-| 2D | Danish               |                                       |                           |             |
-| 2E | Swedish              |                                       |                           |             |
-| 2F | Norwegian (Bokmal)   | small                                 | masculine feminine neuter |             |
-| 30 | Polish               | d c b n m w                           | m f n                     | 7           |
-| 31 | Galician             |                                       | m f n                     |             |
-| 32 | Frisian              |                                       |                           |             |
-| 33 | Ukrainian            | r d z                                 | m f s mn                  | 6           |
-| 34 | Estonian             | g in sü                               |                           |             |
-| 35 | Finnish              |                                       |                           |             |
-| 36 | Portuguese           |                                       | n m f mp fp               |             |
-| 37 | Brazilian Portuguese |                                       | m f                       | 2           |
-| 38 | Croatian             | nom gen dat aku vok lok ins           | male female middle        | 6           |
-| 39 | Japanese             |                                       |                           | 1           |
-| 3A | Korean               |                                       | m f                       | 11          |
-| 3C | Malay                |                                       |                           |             |
-| 3D | English (AU)         |                                       |                           |             |
-| 3E | Turkish              | tamlanan                              |                           | 1           |
-| 42 | Thai                 |                                       |                           | 1           |
-| 54 | Vietnamese           |                                       |                           | 1           |
-| 55 | Mexican Spanish      |                                       | m f                       | 0           |
-| 56 | Chinese (Simplified) |                                       |                           | 1           |
-| 5A | Indonesian           |                                       |                           | 1           |
-| 5C | Urdu                 |                                       | m f                       |             |
-| 61 | Hebrew               | singular plural gen                   | m f                       |             |
-| 62 | Persian              |                                       |                           |             |
-| 66 | Latin                | gen acc abl dat                       | m f n mp fp np            |             |
+| ID     | 语言                     | 语法格 | 性别形式 | 复数形式 |
+|--------|--------------------------|--------|----------|----------|
+| 0C     | Chinese  (Traditional)   |        |          | 1        |
+| **56** | **Chinese (Simplified)** |        |          | **1**    |
+
+| ID | language               | cases                                 | genders                   | plural form |
+|----|------------------------|---------------------------------------|---------------------------|-------------|
+| 00 | English (US)           |                                       |                           |             |
+| 01 | English (GB)           |                                       |                           |             |
+| 02 | German                 |                                       | m w n p                   |             |
+| 03 | French                 |                                       | m m2 f                    | 2           |
+| 04 | Spanish                |                                       | m f                       |             |
+| 05 | Esperanto              |                                       |                           | n           |
+| 06 | Ido                    |                                       |                           |             |
+| 07 | Russian                | m f n p nom gen dat acc abl pre       | m f n p                   | 6           |
+| 08 | Irish                  |                                       |                           | 4           |
+| 09 | Maltese                |                                       |                           | 12          |
+| 0A | Tamil                  |                                       |                           |             |
+| 0B | Chuvash                |                                       |                           |             |
+| 0C | Chinese  (Traditional) |                                       |                           | 1           |
+| 0D | Serbian                | nom big gen dat aku vok lok ins       | muški ženski srednji      | 6           |
+| 0E | Norwegian (Nynorsk)    | small                                 | masculine feminine neuter |             |
+| 0F | Welsh                  |                                       |                           |             |
+| 10 | Belarusian             | m f n p nom gen dat acc abl pre       | m f n p                   | 6           |
+| 11 | Marathi                |                                       |                           |             |
+| 12 | Faroese                |                                       | m f n                     |             |
+| 13 | Scottish Gaelic        | dat gen nom voc                       | m f                       | 13          |
+| 14 | Arabic   (Egypt)       |                                       |                           | 1           |
+| 15 | Czech                  | nom gen dat acc voc loc ins big small | m f n map mnp fp np       | 10          |
+| 16 | Slovak                 | g                                     | m z s                     | 10          |
+| 17 | Hindi                  |                                       |                           |             |
+| 18 | Bulgarian              | m f n p                               | m f n p                   |             |
+| 1B | Afrikaans              |                                       | male                      |             |
+| 1E | Greek                  | subs date geniki                      | m f n                     | 2           |
+| 1F | Dutch                  |                                       |                           |             |
+| 21 | Basque                 |                                       |                           |             |
+| 22 | Catalan                |                                       | Masculin Femenin          |             |
+| 23 | Luxembourgish          |                                       |                           |             |
+| 24 | Hungarian              | t ba                                  |                           | 2           |
+| 26 | Macedonian             |                                       |                           |             |
+| 27 | Italian                | ms mp fs fp                           | m ma f                    |             |
+| 28 | Romanian               |                                       |                           |             |
+| 29 | Icelandic              |                                       | karlkyn kvenkyn hvorugkyn |             |
+| 2A | Latvian                | kas                                   | m f                       | 3           |
+| 2B | Lithuanian             | kas ko kam ka kuo kur kreip           | vyr mot                   | 5           |
+| 2C | Slovenian              | r d t                                 |                           | 8           |
+| 2D | Danish                 |                                       |                           |             |
+| 2E | Swedish                |                                       |                           |             |
+| 2F | Norwegian (Bokmal)     | small                                 | masculine feminine neuter |             |
+| 30 | Polish                 | d c b n m w                           | m f n                     | 7           |
+| 31 | Galician               |                                       | m f n                     |             |
+| 32 | Frisian                |                                       |                           |             |
+| 33 | Ukrainian              | r d z                                 | m f s mn                  | 6           |
+| 34 | Estonian               | g in sü                               |                           |             |
+| 35 | Finnish                |                                       |                           |             |
+| 36 | Portuguese             |                                       | n m f mp fp               |             |
+| 37 | Brazilian Portuguese   |                                       | m f                       | 2           |
+| 38 | Croatian               | nom gen dat aku vok lok ins           | male female middle        | 6           |
+| 39 | Japanese               |                                       |                           | 1           |
+| 3A | Korean                 |                                       | m f                       | 11          |
+| 3C | Malay                  |                                       |                           |             |
+| 3D | English (AU)           |                                       |                           |             |
+| 3E | Turkish                | tamlanan                              |                           | 1           |
+| 42 | Thai                   |                                       |                           | 1           |
+| 54 | Vietnamese             |                                       |                           | 1           |
+| 55 | Mexican Spanish        |                                       | m f                       | 0           |
+| 56 | Chinese (Simplified)   |                                       |                           | 1           |
+| 5A | Indonesian             |                                       |                           | 1           |
+| 5C | Urdu                   |                                       | m f                       |             |
+| 61 | Hebrew                 | singular plural gen                   | m f                       |             |
+| 62 | Persian                |                                       |                           |             |
+| 66 | Latin                  | gen acc abl dat                       | m f n mp fp np            |             |

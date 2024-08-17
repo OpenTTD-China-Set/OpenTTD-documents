@@ -1,8 +1,5 @@
 # Action0x08 GRF 基本信息
 
-[返回目录](./catalogue.md)\
-[返回介绍](./actions_introduction.md)
-
 Action0x08 当中定义了 GRF 的识别符、GRF 使用的标准的版本、GRF 名称与介绍。其中，名称与介绍部分已经被 Action0x14 部分替代，但仍建议不要盲目去除。
 
 ```cpp
@@ -46,7 +43,3 @@ GRF ID 必须使用英文双引号括起来，且只能包含 ASCII 字符或以
 | GRF0 | GRF0       | 1.9.1 alphas 至 27                                  | 不支持                  |
 
 请不要使用 GRF0 与 GRF1，并尽可能使用 GRF8。GRF8 是最新的 GRF 技术标准。除非需要支持 TTDPatch，否则请不要使用其他版本。
-
-另行参阅：
-
-- [Action0x14 额外信息（仅 OpenTTD）](./action_0x14.md)

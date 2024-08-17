@@ -1,8 +1,5 @@
 # 基本运算
 
-[返回目录](./catalogue.md)\
-[返回介绍](./code_introduction.md)
-
 nml 支持以下运算符：
 
 ```bash

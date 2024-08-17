@@ -1,8 +1,5 @@
 # Action0x14
 
-[返回目录](./catalogue.md)\
-[返回介绍](./actions_introduction.md)
-
 Action0x14 常被用来提供额外信息。由于提供的是“额外信息”，因此即使手动去除也不会影响 GRF 的读取等，但是使用体验会大打折扣。\
 这里的额外信息包括：
 
@@ -67,7 +64,3 @@ optional_info                                             // action14 关键字
 ```
 
 Action0x14 当中定义的参数可以被其他的 Actions 使用。如 Action0x0D。
-
-另行参阅：
-
-- [Action0x08 GRF 基本信息](./action_0x08.md)

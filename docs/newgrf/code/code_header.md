@@ -1,8 +1,5 @@
 # 制作身份证
 
-[返回目录](./catalogue.md)\
-[返回介绍](./code_introduction.md)
-
 如前文所说，OpenTTD 在读取 GRF 的时候会读取 GRF 识别符，即 ID。ID 与其他项目必须放在 NewGRF 代码的最前面。grf 块包含了这些项目。
 
 ```cpp
@@ -50,8 +47,3 @@ grf {
 | FF .. .. ..                | 所有以“FF”开头的 GRFID 为系统保留 ID                  |
 
 一共有 $256^4=4294967296$ 个可用的 GRF ID。
-
-对应 Actions:
-
-- [Action0x14](./action_0x14.md)
-- [Action0x08](./action_0x08.md)

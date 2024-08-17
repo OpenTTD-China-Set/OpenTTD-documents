@@ -2,6 +2,4 @@
 
 一些与 OpenTTD 有关的文档。
 
-[NewGRF 推荐指南](docs/newgrf/newgrf-introduction.md)\
-[NewGRF 编写教程](docs/newgrf/create-a-newgrf/catalogue.md)\
-[Contributing](./contributing.md)
+本系列文档在 CC BY-NC-SA 4.0 许可证下发布。任何人都在可以标注源地址后自由修改并发布，惟不得作商业用途。

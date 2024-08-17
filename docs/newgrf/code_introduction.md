@@ -1,20 +1,30 @@
 # 程序
 
-[返回目录](./catalogue.md)
+编写 NewGRF 有固定的流程。
 
-- [基本运算](./code_functions.md)
-- [引导块](./code_header.md)
-- [Item 块](./code_item.md)
-- [Debug](./code_debugging.md)
+NewGRF，即 New graphics resource files，是用于 Transport Tycoon、Transport Tycoon Deluxe、OpenTTD 等游戏的图像文件；当中可以包含自定义代码，因此也可以用来拓展游戏内容。所有的 GRF 都不能跳脱出游戏所划定的沙盒，因此相较于其他游戏的模组 GRF 的自由度较少；你可以将 NewGRF 理解为游戏模组。
 
-- 专题讨论
-  - [终端](./code_topic_terminal.md)
+OpenTTD NewGRF 的一个最大特点就是兼容性好。哪怕是使用过时技术、过时标准编写的 GRF，一般而言，只要文件没有损坏，OpenTTD 都可以正确读取 GRF 内容并加载其内容。
+
+```{toctree}
+:maxdepth: 1
+:caption: 目录
+
+code/code_debugging.md
+code/code_extras_1.md
+code/code_extras_2.md
+code/code_functions.md
+code/code_header.md
+code/code_item.md
+code/code_strings.md
+code/code_topic_terminal.md
+```
 
 如果想要编写程序，最好自己有一些编程基础。\
 编写 NewGRF 最好准备一台电脑。
 
 我们推荐使用 NML 来编写 NewGRF。当然，你也可以使用 grf-py 和 yagl。强烈不建议使用 NFO 编写 GRF。\
-如果你不知道如何使用终端，我建议你先阅读[专题讨论：终端](./code_topic_terminal.md)。
+如果你不知道如何使用终端，我建议你先阅读“使用终端”。
 
 ## 下载与安装 NML
 
