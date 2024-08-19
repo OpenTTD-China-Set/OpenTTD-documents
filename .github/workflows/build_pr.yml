@@ -1,0 +1,23 @@
+name: Trigger Read the Docs Build for PRs
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Determine build version
+      id: get-version
+      run: |
+        echo "::set-output name=version::pr-${{ github.event.pull_request.number }}"
+
+    - name: Trigger Read the Docs build
+      run: |
+        curl -X POST "https://readthedocs.org/api/v3/projects/ottdzh/versions/${{ steps.get-version.outputs.version }}/builds/" \
+        -H "Authorization: Token ${{ secrets.READTHEDOCS_TOKEN }}"
+      env:
+        READTHEDOCS_TOKEN: ${{ secrets.READTHEDOCS_TOKEN }}

@@ -1,0 +1,20 @@
+name: Trigger Read the Docs Build
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Trigger Read the Docs build
+      run: |
+        curl -X POST "https://readthedocs.org/api/v3/projects/ottdzh/versions/latest/builds/" \
+        -H "Authorization: Token ${{ secrets.READTHEDOCS_TOKEN }}"
+      env:
+        READTHEDOCS_TOKEN: ${{ secrets.READTHEDOCS_TOKEN }}
