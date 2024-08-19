@@ -10,14 +10,14 @@ OpenTTD NewGRF 的一个最大特点就是兼容性好。哪怕是使用过时�
 :maxdepth: 1
 :caption: 目录
 
+code/code_header.md
+code/code_topic_terminal.md
+code/code_item.md
+code/code_strings.md
+code/code_functions.md
 code/code_debugging.md
 code/code_extras_1.md
 code/code_extras_2.md
-code/code_functions.md
-code/code_header.md
-code/code_item.md
-code/code_strings.md
-code/code_topic_terminal.md
 ```
 
 如果想要编写程序，最好自己有一些编程基础。\
@@ -60,8 +60,9 @@ nmlc --version
 
 如果汇报了正确版本，恭喜你，你已经成功安装了 nml，跨过了第一道门槛。
 
-> [!IMPORTANT]
-> 由于 NML 目前尚在开发中，尚有一些程序错误，我们建议定期更新 NML 以避免 GRF 出错。
+```{important}
+由于 NML 目前尚在开发中，尚有一些程序错误，我们建议定期更新 NML 以避免 GRF 出错。
+```
 
 ## 基本原理
 
