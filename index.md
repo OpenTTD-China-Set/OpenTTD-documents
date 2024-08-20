@@ -6,3 +6,11 @@
 
 docs/newgrf/newgrf_introduction.md
 ```
+
+```{toctree}
+:maxdepth: 1
+
+license.md
+readme.md
+contributing.md
+```

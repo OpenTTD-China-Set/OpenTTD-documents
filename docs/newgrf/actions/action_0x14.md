@@ -1,4 +1,4 @@
-# Action0x14
+# Action0x14 额外信息
 
 Action0x14 常被用来提供额外信息。由于提供的是“额外信息”，因此即使手动去除也不会影响 GRF 的读取等，但是使用体验会大打折扣。\
 这里的额外信息包括：
@@ -18,7 +18,7 @@ optional_info                                             // action14 关键字
 {
     INFO:                                                 // INFO 块
     {
-        NAME: zh_CN, "样例 GRF";                           // GRF 标题翻译
+        NAME: zh_CN, "样例 GRF";                          // GRF 标题翻译
         DESC: zh_CN, "这是一个样例 GRF 的 Action0x14 部分";  // GRF 介绍翻译
         VRSN: [ 0x01 0x00 0x00 0x00 ];                    // GRF 版本
         MINV: [ 0x01 0x00 0x00 0x00 ];                    // GRF 最低兼容版本
@@ -30,8 +30,8 @@ optional_info                                             // action14 关键字
             {
                 NAME: default, "Mode";                    // 默认文本
                 DESC: default, "Select track mode.";      // 默认文本
-                NAME: zh_CN, "轨道模式";                   // 翻译
-                DESC: zh_CN, "选择轨道模式。";              // 翻译
+                NAME: zh_CN, "轨道模式";                  // 翻译
+                DESC: zh_CN, "选择轨道模式。";            // 翻译
                 LIMI: [ 0x00 0x00 0x00 0x00 0x04 0x00 0x00 0x00 ];  // 参数数值限制
                 DFLT: [ 0x00 0x00 0x00 0x00 ];                      // 参数默认值
                 VALU:                                               // 每一项使用的文本

@@ -11,7 +11,7 @@ OpenTTD NewGRF 的一个最大特点就是兼容性好。哪怕是使用过时�
 :caption: 目录
 
 code/code_header.md
-code/code_topic_terminal.md
+code/code_terminal.md
 code/code_item.md
 code/code_strings.md
 code/code_functions.md
