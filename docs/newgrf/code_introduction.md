@@ -6,20 +6,6 @@ NewGRF，即 New graphics resource files，是用于 Transport Tycoon、Transpor
 
 OpenTTD NewGRF 的一个最大特点就是兼容性好。哪怕是使用过时技术、过时标准编写的 GRF，一般而言，只要文件没有损坏，OpenTTD 都可以正确读取 GRF 内容并加载其内容。
 
-```{toctree}
-:maxdepth: 1
-:caption: 目录
-
-code/code_header.md
-code/code_terminal.md
-code/code_item.md
-code/code_strings.md
-code/code_functions.md
-code/code_debugging.md
-code/code_extras_1.md
-code/code_extras_2.md
-```
-
 如果想要编写程序，最好自己有一些编程基础。\
 编写 NewGRF 最好准备一台电脑。
 
