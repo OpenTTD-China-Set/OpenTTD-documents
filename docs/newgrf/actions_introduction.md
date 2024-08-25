@@ -1,7 +1,18 @@
 # Actions
 
-若要使用 YAGL 或 NFO 编写 NewGRF 则必须了解 Actions。\
-NewGRF 可以包含 20 种 Action，从 Action0x00 到 Action0x14（十六进制）。每个 Action 都有不同的作用。
+GRF 是由“Sprite”，即“图像”组成的，图像当中包括“pseudosprite”，“伪图像”，与“realsprites”，“真图像”。
+伪图像就是一般意义上的 NFO/YAGL 代码，
+而“真图像”就是一般意义上的图像。
+以下简称伪图像为“代码”。
+
+Action 是代码的基本单元，
+若要使用 YAGL 或 NFO 编写 NewGRF 则必须了解 Actions。[^nml]
+NewGRF 可以包含 20 种 Action，
+从 Action0x00 到 Action0x14（十六进制）。
+每个 Action 都有不同的作用。
+
+[^nml]: NML 采用不同的代码组织方式，
+在大多数情况下不涉及 Action。
 
 为了讲解简便，本教程中 Action 的代码演示统一使用 YAGL 语言。你也可以访问 [tt-wiki.net](https://www.tt-wiki.net) 以查看 NFO 样例。
 
