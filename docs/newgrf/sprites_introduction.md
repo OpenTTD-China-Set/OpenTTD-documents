@@ -5,6 +5,22 @@
 在 GRF 中的图像分为 pseudosprite（伪图像）与 realsprite（真图像）。
 Realsprite 是“真正看到的图像”，而 Recoloursprite 则是一系列颜色索引，用来索引重新着色的对象与目标。
 
+```{mermaid}
+flowchart TD
+  A[图像] ==> palette[调色盘]
+  A ==> zoom[缩放]
+  palette ==> 8bpp
+  palette --> 32bpp
+  8bpp --> Windows
+  8bpp ==> DOS
+  zoom ==> normal
+  zoom --> 2x
+  zoom --> 4x
+  A ---> SPT[Sprite 类型]
+  SPT --> NRS[普通 Sprite]
+  SPT --> REC[Recoloursprite]
+```
+
 ## Realsprite
 
 GRF 的图像有两个技术指标，分别是 bpp（每像素比特数）与 EZ（高清）。

@@ -67,7 +67,7 @@ STR_GRF_URL     :https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 在编写语言文件的时候，由于作者不可能同时精通多门语言（你给我找一个精通八国语言的过来），因此和翻译者维持良好的关系非常重要。
 
-## 附录 I：LNG 语言文件使用的关键字
+## LNG 语言文件使用的关键字
 
 | 关键字      | 作用                                                               |
 |-------------|------------------------------------------------------------------|
@@ -102,7 +102,7 @@ STR_GRF_URL     :https://www.youtube.com/watch?v=dQw4w9WgXcQ
 | PUSH_COLOUR | 自 OpenTTD 1.10 之后可用，TTDPatch 不可用。将当前颜色推入颜色栈中。   |
 | POP_COLOUR  | 自 OpenTTD 1.10 之后可用，TTDPatch 不可用。将当前颜色自颜色栈中移除。 |
 
-## 附录 II：YAGL 使用的关键字
+## YAGL 使用的关键字
 
 基本字符串关键字：
 

@@ -24,6 +24,6 @@ BaNaNaS 是一个在线内容托管服务，由 OpenTTD 官方团队运营。
 
 ## 其他方法
 
-tt-forums 是早期 NewGRF 的集散地，也是 OpenTTD 开发论坛（之一）。你可以在 Graphics-developments 或 Graphics-releases 板块下找到 NewGRF。
+TT-Forums 是早期 NewGRF 的集散地，也是 OpenTTD 开发论坛（之一）。你可以在 Graphics-developments 或 Graphics-releases 板块下找到 NewGRF。
 
 TELKLAND 是一个韩语社区，你可以在其中找到一些韩语 GRF。

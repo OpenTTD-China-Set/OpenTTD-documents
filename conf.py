@@ -32,6 +32,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.autosectionlabel',
+    "sphinxcontrib.mermaid",
     'myst_parser',
 ]
 
