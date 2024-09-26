@@ -1,4 +1,4 @@
-# 文本
+# 文本（String）
 
 ```{note}
 这里主要是对 LNG 语言文件的介绍。OpenTTD 游戏本体（与改版）也使用相同的语言文件和格式。
@@ -203,7 +203,7 @@ STR_GRF_URL     :https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 使用关键字的样例：
 
-```
+```text
     name: "Ridiculous Town Names {ext push-colour}{blue}1.2.3{ext pop-colour}";
 ```
 
