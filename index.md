@@ -23,7 +23,7 @@ docs/newgrf/code/extras/*
 ```
 
 ```{toctree}
-:caption: Actions
+:caption: Action
 :hidden:
 :glob:
 
