@@ -7,6 +7,7 @@ author = 'WenSim and China Set Team'
 release = '0.1'
 copyright = '2024 WenSim 与 China Set 团队'
 templates_path = ['_templates']
+exclude_patterns = ['_build', '.venv']
 
 language = 'zh_CN'
 source_suffix = {
