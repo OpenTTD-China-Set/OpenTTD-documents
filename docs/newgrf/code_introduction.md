@@ -12,6 +12,25 @@ OpenTTD NewGRF 的一个最大特点就是兼容性好。哪怕是使用过时�
 我们推荐使用 NML 来编写 NewGRF。当然，你也可以使用 grf-py 和 yagl。强烈不建议使用 NFO 编写 GRF。\
 如果你不知道如何使用终端，我建议你先阅读“使用终端”。
 
+````{important}
+相较于 NFO，NML 的语法更简单高级。如果使用 grf-py 或者 yagl 开发则必须使用 Actions（NFO）
+
+```{mermaid}
+flowchart TD
+  subgraph 间接操纵
+  NML
+  end
+  NML -->|聚合|Actions
+  Actions -->|构成|NewGRF
+  subgraph 直接操纵
+  grf-py -->|聚合|Actions
+  yagl -->|呈现|Actions
+  NFO -->|呈现|Actions
+  end
+```
+
+````
+
 ## 下载与安装 NML
 
 可以使用多种方式来安装 nmlc。推荐使用 pip 或者 scoop 安装 nml。
