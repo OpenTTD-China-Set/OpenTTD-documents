@@ -27,7 +27,7 @@ docs/newgrf/code/extras/*
 :hidden:
 :glob:
 
-Actions 简介 <docs/newgrf/actions_introduction.md>
+Action 简介 <docs/newgrf/actions_introduction.md>
 docs/newgrf/actions/*
 ```
 
