@@ -37,7 +37,7 @@ flowchart LR
 [^nml]: NML 采用不同的代码组织方式，
 不涉及 Action。
 
-为了讲解简便，本教程中 Action 代码演示统一使用 YAGL 语言。你也可以访问 <https://www.tt-wiki.net> 以查看 NFO 样例[^examples]。
+为了讲解简便，本教程中 Action 代码演示统一使用 YAGL 语言。你也可以访问 <https://newgrf-specs.tt-wiki.net/wiki/Main_Page> 以查看 NFO 样例[^examples]。
 
 [^examples]: 大部分页面未有样例
 
