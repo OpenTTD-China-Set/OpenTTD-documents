@@ -12,18 +12,26 @@ NewGRF 可以包含 20 种 Action，
 每种 Action 都有不同的作用。
 
 ```{mermaid}
-flowchart TD
+flowchart LR
   subgraph 间接操纵
   NML
   end
   NML -->|聚合|Action
   Action -->|构成|NewGRF
   subgraph 直接操纵
-  grf-py -->|聚合|Action
+  grf-py
+  NFO
+  yagl
+  M4NFO
+  GCC[GCC 宏] -->|聚合|NFO
+  GCC[GCC 宏] -->|聚合|yagl
+  end
+  grf-py -->|"聚合、呈现"|Action
   yagl -->|呈现|Action
   NFO -->|呈现|Action
-  end
-  OpenTTD -->|"读取、加载"|NewGRF
+  M4NFO -->|聚合|NFO
+
+  style Action fill:#a4cdfc, Stroke:#1b4c91, stroke-width: 2px
 ```
 
 [^nml]: NML 采用不同的代码组织方式，

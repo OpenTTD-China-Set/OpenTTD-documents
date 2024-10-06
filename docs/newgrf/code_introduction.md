@@ -16,17 +16,26 @@ OpenTTD NewGRF 的一个最大特点就是兼容性好。哪怕是使用过时�
 相较于 NFO，NML 的语法更简单高级。如果使用 grf-py 或者 yagl 开发则必须使用 Actions（NFO）
 
 ```{mermaid}
-flowchart TD
+flowchart LR
   subgraph 间接操纵
   NML
   end
-  NML -->|聚合|Actions
-  Actions -->|构成|NewGRF
+  NML -->|聚合|Action
+  Action -->|构成|NewGRF
   subgraph 直接操纵
-  grf-py -->|聚合|Actions
-  yagl -->|呈现|Actions
-  NFO -->|呈现|Actions
+  grf-py
+  NFO
+  yagl
+  M4NFO
+  GCC[GCC 宏] -->|聚合|NFO
+  GCC[GCC 宏] -->|聚合|yagl
   end
+  grf-py -->|"聚合、呈现"|Action
+  yagl -->|呈现|Action
+  NFO -->|呈现|Action
+  M4NFO -->|聚合|NFO
+
+  style Action fill:#a4cdfc, Stroke:#1b4c91, stroke-width: 2px
 ```
 
 ````
