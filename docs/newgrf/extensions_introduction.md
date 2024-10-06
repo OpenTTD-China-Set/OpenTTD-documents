@@ -1,5 +1,12 @@
 # 查找扩展
 
+```{note}
+部分基于 Zyliety 于[哔哩哔哩](https://space.bilibili.com/359135733/)发布的 NewGRF 系列专栏。
+原作者：Zyliety
+原标题：newgrf 一览
+原链接：<https://www.bilibili.com/read/readlist/rl743422>
+```
+
 ## 前言
 
 OpenTTD 有许多扩展可用，包括：
@@ -12,8 +19,7 @@ OpenTTD 有许多扩展可用，包括：
 - 游戏脚本（Game Script, GS）
 - AI
 
-其中大多数扩展被托管在 BaNaNaS 上。
-BaNaNaS 是一个在线内容托管服务，由 OpenTTD 官方团队运营。
+BaNaNaS 是一个在线内容托管服务，由 OpenTTD 官方团队运营。大多数拓展托管在 BaNaNaS 上。
 **由于所有人都可以自由上传内容至服务器上，请务必做好内容辨析。**
 
 ## BaNaNaS
