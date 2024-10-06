@@ -1,9 +1,9 @@
 # 查找扩展
 
 ```{note}
-部分基于 Zyliety 于[哔哩哔哩](https://space.bilibili.com/359135733/)发布的 NewGRF 系列专栏。
-原作者：Zyliety
-原标题：newgrf 一览
+部分基于 Zyliety 于[哔哩哔哩](https://space.bilibili.com/359135733/)发布的 NewGRF 系列专栏。 \
+原作者：Zyliety \
+原标题：newgrf 一览 \
 原链接：<https://www.bilibili.com/read/readlist/rl743422>
 ```
 
