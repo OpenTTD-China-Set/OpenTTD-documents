@@ -41,6 +41,15 @@ docs/newgrf/sprites/*
 ```
 
 ```{toctree}
+:caption: 其他开发
+:hidden:
+:glob:
+
+目录 <docs/newgrf/extras_introduction.md>
+docs/newgrf/extras/*
+```
+
+```{toctree}
 :caption: 其他
 :hidden:
 
