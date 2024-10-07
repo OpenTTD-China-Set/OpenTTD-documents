@@ -3,9 +3,9 @@ import sys
 sys.path.insert(0, os.path.abspath('..'))
 
 project = 'OpenTTD 中文社区文档'
-author = 'WenSim and China Set Team'
+author = 'WenSim and contributors'
 release = '0.1'
-copyright = '2024 WenSim 与 China Set 团队'
+copyright = '2024 WenSim 与其他贡献者；在 CC BY-NC-SA 4.0 许可证下发布'
 templates_path = ['_templates']
 exclude_patterns = ['_build', '.venv']
 
