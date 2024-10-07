@@ -19,6 +19,22 @@ OpenTTD 有许多扩展可用，包括：
 - 游戏脚本（Game Script, GS）
 - AI
 
+```{mermaid}
+flowchart LR
+  Extensions --- Baseset
+  Baseset --- Graphics
+  Baseset --- Music
+  Baseset --- Sounds
+  Extensions --- NewGRF
+  Extensions --- Scripts
+  Scripts --- GameScripts
+  Scripts --- AI
+  NewGRF ---- Vehicles[Road Vehicles\nTrains\nAircraft\nShips]
+  NewGRF ---- Infrastructures[Houses\nStations\nRails and Roads]
+  NewGRF --- Industries
+  NewGRF --- GR[Graphics replacements]
+```
+
 BaNaNaS 是一个在线内容托管服务，由 OpenTTD 官方团队运营。大多数拓展托管在 BaNaNaS 上。
 **由于所有人都可以自由上传内容至服务器上，请务必做好内容辨析。**
 
