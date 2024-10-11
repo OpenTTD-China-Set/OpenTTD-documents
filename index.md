@@ -66,7 +66,7 @@ docs/newgrf/extras/*
 OpenTTD GitHub 页面 <https://github.com/openttd/openttd>
 文档 GitHub 页面 <https://github.com/openttd-china-set/openttd-documents>
 百度贴吧 <https://tieba.baidu.com/f?kw=openttd>
-JGRPP 中文百科 <https://github.com/wensimehrp/jgrpp-wiki>
+JGRPP 中文百科 <https://jgrzh.readthedocs.io/>
 ```
 
 本系列文档是由志愿者维护的 OpenTTD 中文社区文档。
