@@ -155,7 +155,8 @@ nmlc my_grf.nml
 
 ## 相关视频
 
-[【[中字]100 秒解释 bash】](https://www.bilibili.com/video/BV1cY411s7Yt/?share_source=copy_web&vd_source=ab361b9ecbfbe2849f444b199bfe1f61)
-（哔哩哔哩）
+<iframe width="100%" height="400px" src="https://player.bilibili.com/player.html?isOutside=true&aid=251924452&bvid=BV1cY411s7Yt&cid=449705744&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/I4EWvMFj37g?si=gG17pnDUknivP-wd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---
+
+<iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/I4EWvMFj37g?si=gG17pnDUknivP-wd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
