@@ -42,3 +42,19 @@ GRF ID 必须使用英文双引号括起来，且只能包含 ASCII 字符或以
 | GRF0 | GRF0       | 1.9.1 alphas 至 27                                  | 不支持                  |
 
 请不要使用 GRF0 与 GRF1，并尽可能使用 GRF8。GRF8 是最新的 GRF 技术标准。除非需要支持 TTDPatch，否则请不要使用其他版本。
+
+<script src="https://giscus.app/client.js"
+        data-repo="openttd-china-set/openttd-documents"
+        data-repo-id="R_kgDOLV0ztQ"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLV0ztc4Cf-oT"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

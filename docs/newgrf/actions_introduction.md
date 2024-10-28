@@ -48,3 +48,19 @@ flowchart LR
 ```{important}
 grf-py 目前尚在开发中，API 与特性随时可能变动。建议关注作者动态（<https://github.com/citymania-org/grf-py>）并定期更新。
 ```
+
+<script src="https://giscus.app/client.js"
+        data-repo="openttd-china-set/openttd-documents"
+        data-repo-id="R_kgDOLV0ztQ"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLV0ztc4Cf-oT"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

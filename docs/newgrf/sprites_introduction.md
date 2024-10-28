@@ -73,3 +73,19 @@ spriteset(my_recoloursprite){
 ```
 
 重着色图像可以用于节省图像数量与大小，在需要一些极其相似但是又有细微差别——如颜色——的图像时大有帮助，如不同颜色的矿物，黑色是煤炭，而棕色是铁矿石，绿色是铜矿石，等等。
+
+<script src="https://giscus.app/client.js"
+        data-repo="openttd-china-set/openttd-documents"
+        data-repo-id="R_kgDOLV0ztQ"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLV0ztc4Cf-oT"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
