@@ -64,19 +64,3 @@ optional_info                                             // action14 关键字
 ```
 
 Action0x14 当中定义的参数可以被其他的 Actions 使用。如 Action0x0D。
-
-<script src="https://giscus.app/client.js"
-        data-repo="openttd-china-set/openttd-documents"
-        data-repo-id="R_kgDOLV0ztQ"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOLV0ztc4Cf-oT"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>

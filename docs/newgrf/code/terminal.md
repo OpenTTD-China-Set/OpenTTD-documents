@@ -160,19 +160,3 @@ nmlc my_grf.nml
 ---
 
 <iframe width="100%" height="400px" src="https://www.youtube-nocookie.com/embed/I4EWvMFj37g?si=gG17pnDUknivP-wd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<script src="https://giscus.app/client.js"
-        data-repo="openttd-china-set/openttd-documents"
-        data-repo-id="R_kgDOLV0ztQ"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOLV0ztc4Cf-oT"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>

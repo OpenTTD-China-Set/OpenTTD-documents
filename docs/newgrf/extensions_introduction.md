@@ -49,19 +49,3 @@ BaNaNaS 是一个在线内容托管服务，由 OpenTTD 官方团队运营。大
 TT-Forums 是早期 NewGRF 的集散地，也是 OpenTTD 开发论坛（之一）。你可以在 Graphics-developments 或 Graphics-releases 板块下找到 NewGRF。
 
 TELKLAND 是一个韩语社区，你可以在其中找到一些韩语 GRF。
-
-<script src="https://giscus.app/client.js"
-        data-repo="openttd-china-set/openttd-documents"
-        data-repo-id="R_kgDOLV0ztQ"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOLV0ztc4Cf-oT"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
