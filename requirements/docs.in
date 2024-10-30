@@ -1,0 +1,10 @@
+sphinx
+sphinx_rtd_theme
+myst-parser
+linkify-it-py
+sphinxcontrib-mermaid
+
+sphinx-tabs
+sphinx-design
+sphinxemoji
+sphinx-copybutton

@@ -13,3 +13,6 @@ rm:
 build:
     @echo "Building documentation..."
     sphinx-build -b html . _build
+
+compile-dependencies:
+    pip-compile pip-compile --output-file=requirements/docs.txt requirements/docs.in
