@@ -6,6 +6,7 @@
 :glob:
 
 如何寻找拓展 <docs/newgrf/extensions_introduction>
+NewGRF 简介 <docs/newgrf/newgrf_explanation.md>
 docs/newgrf/extensions/*
 docs/newgrf/extensions/main/*
 ```
@@ -15,7 +16,6 @@ docs/newgrf/extensions/main/*
 :hidden:
 :glob:
 
-NewGRF 简介 <docs/newgrf/newgrf_explanation.md>
 NewGRF 开发简介 <docs/newgrf/code_introduction.md>
 docs/newgrf/code/terminal.md
 docs/newgrf/code/*
