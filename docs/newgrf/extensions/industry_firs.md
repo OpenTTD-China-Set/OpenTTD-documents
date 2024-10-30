@@ -41,7 +41,7 @@ FIRS 的工业系统相较原版更加复杂多样，经济系统也更加丰富
 ## AXIS
 
 AXIS 即 Another eXtreme Industry Set，相较于 FIRS，其货物、工业建筑更多，
-是 EmperorJake 根据 FIRS 的代码开发。
+由 EmperorJake 根据 FIRS 代码开发。
 
 AXIS 是 XIS（eXtreme Industry Set）的继任者。后者是 FIRS 3 Extreme 经济的扩展，
 虽然结合了其他经济元素，内容丰富，但体系较为混乱，代码限制多，货物过于通用。
@@ -64,9 +64,9 @@ AXIS 添加了一些新的货物类型，但应当与大多数较新的载具包
 
 AIRS（Age of Industries Replacement Set）同样基于 FIRS 4 代码，由 andysine 开发。
 AIRS 基于特定的区域和历史经济（北美）。
-在使用 AIRS 时，游戏产业链会随时间的推移逐渐复杂，最终呈现一个半现实的经济体系。
+在使用 AIRS 时，游戏产业链会随时间推移逐渐复杂，最终达到一个半现实的经济体系。
 
-随着时间退役，玩家需要调整货物网络，以应对生产变化与货物、需求变化。
+随着时间推移，玩家需要调整货物网络，以应对生产变化与货物、需求的变化。
 建设加工厂是 AIRS 的重要部分，加工厂成本也经过调整，显著降低。
 
 <https://www.tt-forums.net/viewtopic.php?t=90529>
