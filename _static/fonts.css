@@ -1,0 +1,19 @@
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/style.min.css');
+@import url('https://cdn.jsdelivr.net/npm/@fontsource/iosevka@5.1.0/index.min.css');
+
+figcaption .caption-text {
+    font-family: 'LXGW WenKai Screen', sans-serif !important;
+    font-style: normal !important;
+}
+
+em,
+span.cm-em,
+.cm-quote.cm-quote-1.cm-em {
+  font-style: normal;
+  font-family: "LXGW WenKai Screen", sans-serif;
+}
+
+/* code blocks */
+pre, code, kbd, samp, .highlight pre, .highlight code, .highlight kbd, .highlight samp, .highlight {
+  font-family: 'Iosevka', monospace !important;
+}

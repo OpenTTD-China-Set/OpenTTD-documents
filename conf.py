@@ -51,3 +51,6 @@ myst_enable_extensions = [
     "substitution",
     "tasklist",
 ]
+
+html_static_path = ['_static']
+html_css_files = ['fonts.css']
