@@ -6,14 +6,22 @@ figcaption .caption-text {
     font-style: normal !important;
 }
 
+blockquote {
+    font-family: 'LXGW WenKai Screen', serif;
+}
+
+blockquote .math{ /* this works anyways, dunno why */
+    font-family: serif;
+}
+
 em,
 span.cm-em,
 .cm-quote.cm-quote-1.cm-em {
-  font-style: normal;
-  font-family: "LXGW WenKai Screen", sans-serif;
+    font-style: normal;
+    font-family: "LXGW WenKai Screen";
 }
 
 /* code blocks */
 pre, code, kbd, samp, .highlight pre, .highlight code, .highlight kbd, .highlight samp, .highlight {
-  font-family: 'Iosevka', monospace !important;
+    font-family: 'Iosevka', monospace !important;
 }
