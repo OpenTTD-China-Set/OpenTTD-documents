@@ -10,7 +10,7 @@ indent_style = space
 [*.md]
 indent_size = 2
 
-[*.py]
+[*.{py, css, scss, js, html, htm, json}]
 indent_size = 4
 
 [*.{yml,yaml}]
