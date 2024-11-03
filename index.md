@@ -1,6 +1,15 @@
 # OpenTTD 社区文档
 
 ```{toctree}
+:caption: 游戏机制介绍
+:hidden:
+:glob:
+
+docs/game/*
+
+```
+
+```{toctree}
 :caption: 游戏拓展介绍
 :hidden:
 :glob:
