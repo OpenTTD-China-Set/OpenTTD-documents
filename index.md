@@ -1,11 +1,11 @@
 # OpenTTD 社区文档
 
 ```{toctree}
-:caption: 游戏机制介绍
+:caption: 货物分配
 :hidden:
 :glob:
 
-docs/game/*
+docs/game/cargodist/*
 
 ```
 
