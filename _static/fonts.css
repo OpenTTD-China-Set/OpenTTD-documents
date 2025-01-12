@@ -1,27 +1,25 @@
 @import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/style.min.css');
 @import url('https://cdn.jsdelivr.net/npm/@fontsource/iosevka@5.1.0/index.min.css');
+@import url('https://cdn.jsdelivr.net/npm/@zf-web-font/sourcehansanscn@0.2.0/style.min.css');
 
 figcaption .caption-text {
     font-family: 'LXGW WenKai Screen', sans-serif !important;
     font-style: normal !important;
 }
 
-blockquote {
-    font-family: 'LXGW WenKai Screen', serif;
-}
-
-blockquote .math{ /* this works anyways, dunno why */
-    font-family: serif;
-}
-
 em,
 span.cm-em,
 .cm-quote.cm-quote-1.cm-em {
-    font-style: normal;
-    font-family: "LXGW WenKai Screen";
+  font-style: normal;
+  font-family: "LXGW WenKai Screen", sans-serif;
+}
+
+/* normal text uses Source Han Sans CN */
+h1, h2, h3, h4, h5, h6, body, p, li, td, th, .caption-text, .ui-tooltip-content {
+  font-family: 'Source Han Sans CN', sans-serif !important;
 }
 
 /* code blocks */
 pre, code, kbd, samp, .highlight pre, .highlight code, .highlight kbd, .highlight samp, .highlight {
-    font-family: 'Iosevka', monospace !important;
+  font-family: 'Iosevka', monospace !important;
 }
