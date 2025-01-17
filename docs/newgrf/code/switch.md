@@ -132,7 +132,7 @@ Switch 只可以读取变量，无法修改变量（寄存器另当别论）。
 所有 Switch，无论特性如何，都可以读取全局变量，如当前时间日期、场景气候类型。
 每个特性除了通用变量之外还可以读取特性所对应的变量（货物、声效除外）。
 
-举例来说，假设我现在想要规定一辆机车在 1950 年前的涂装是 A，1951 年至 1980 年的涂装为 B，1981 年后的涂装为 C，就可以这样写：
+假设规定一辆机车在 1950 年前的涂装是 A，1951 年至 1980 年的涂装为 B，1981 年后的涂装为 C，就可以这样写：
 
 ```cpp
 switch (FEAT_TRAINS, SELF, switch_livery, current_year) { // current_year 是一个全局变量，会返回当前游戏年份
@@ -151,7 +151,7 @@ item (FEAT_TRAINS, example_engine){
 }
 ```
 
-又比如说，我想根据当前货物装载比例来显示不同的图像：
+又比如说，根据当前货物装载比例来显示不同的图像：
 
 ```cpp
 // 这里的 cargo_count（货物装载量）与 cargo_capacity（车厢货物容量）都是列车特有的变量
@@ -165,7 +165,7 @@ switch (FEAT_TRAINS, SELF, switch_livery, cargo_count / cargo_capacity * 100) {
 
 item (FEAT_TRAINS, example_wagon){
   property{
-    /* 我是红薯地瓜…… */
+    /* 我是番茄…… */
   }
   graphics {
     default: switch_livery(); // 调用 switch_livery 块来决定这列车使用的图像
